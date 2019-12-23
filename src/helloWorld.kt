@@ -11,6 +11,7 @@ fun displaySeparator(character: Char = '*', size: Int = 10) {
 }
 
 val input = "y"
+
 val output = when (input) {
     "y","yes","yah" -> "Yes, you are right there"
     "n","no","nah" -> "No, that is not correct"
